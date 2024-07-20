@@ -2,10 +2,10 @@
 import React, { useState } from 'react';
 import { Icon } from '@iconify/react/dist/iconify.js';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Chips } from 'react-chips-input';
+// import { Chips } from 'react-chips-input';
 export default function FormulaBox(props) {
   const [isOpen, setIsOpen] = useState(true); 
-  const [chips, setChips] = useState([ "Item 1","Item 1","Item 1","Item 1"]);
+  // const [chips, setChips] = useState([ "Item 1","Item 1","Item 1","Item 1"]);
 
   const toggleContent = () => {
     setIsOpen(!isOpen);
@@ -46,11 +46,11 @@ export default function FormulaBox(props) {
             exit={{ opacity: 0, height: 0 }} 
           >
             <div className='border p-3'>
-            <Chips
+            {/* <Chips
               value={chips}
               onChange={handleAddChip}
               suggestions={["Your", "Data", "Here"]}
-            />
+            /> */}
             </div>
           </motion.div>
         )}
