@@ -1,7 +1,7 @@
 import React from 'react';
 import AddBtn from '../components/add-btn';
 import { Icon } from '@iconify/react/dist/iconify.js';
-import InputBox from '../components/input-box';
+import OutputBox from '../components/output-box';
 
 export default function Outputs() {
   return (
@@ -11,19 +11,12 @@ export default function Outputs() {
         <AddBtn/>
       </div>
       <div className='p-3 overflow-y-scroll h-[80vh] xflex flex-col gap-3'>
-          <InputBox/>
-          <InputBox/>
-          <InputBox/>
-          <InputBox/>
-          <InputBox/>
-          <InputBox/>
-          <InputBox/>
-          <InputBox/>
-          <InputBox/>
-          <InputBox/>
-          <InputBox/>
-          <InputBox/>
-          <InputBox/>
+          <OutputBox/>
+          <OutputBox/>
+          <OutputBox/>
+          <OutputBox/>
+          <OutputBox/>
+          <OutputBox/>
           
         </div>
     </div>
